@@ -139,6 +139,10 @@ button {
   flex: 1;
 }
 
+.first-block__title .mobile {
+  display: none;
+}
+
 .first-block__content-cell-content {
   height: 48px;
   border-radius: 8px;
@@ -997,6 +1001,12 @@ button {
 }
 
 @media (max-width: 767px) {
+  .first-block__title .desktop {
+    display: none;
+  }
+  .first-block__title .mobile {
+    display: inline-block;
+  }
   .main {
     padding: 12px 0 13px;
   }
