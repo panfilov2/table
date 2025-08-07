@@ -113,6 +113,10 @@ button {
   color: #090714;
 }
 
+.first-block__title .mobile {
+  display: none;
+}
+
 .first-block .first-block__container:first-child .first-block__title {
   line-height: 140%;
 }
@@ -137,11 +141,6 @@ button {
   flex-direction: column;
   gap: 8px;
   flex: 1;
-}
-
-
-.first-block__title .mobile {
-  display: none;
 }
 
 .first-block__content-cell-content {
