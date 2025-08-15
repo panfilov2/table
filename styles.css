@@ -292,6 +292,8 @@ button {
   z-index: 101;
   background-color: white;
   min-width: fit-content;
+  position: sticky;
+  top: 0;
 }
 
 .grid-header__sub-grid-quater {
